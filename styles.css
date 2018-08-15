@@ -277,7 +277,7 @@ iframe {
 .reco{
     position: relative;
     text-align: start;
-    bottom: 198px;
+    bottom: 250px;
     left: 215px;
 }
 
@@ -360,7 +360,7 @@ iframe {
 
     .apresentacao{
         max-width: 100%;
-        height: 1846px;
+        height: 2100px;
     }
     
     .efeito{
@@ -409,7 +409,7 @@ iframe {
         justify-content: space-around;
         align-content: center;
         overflow: hidden;
-        padding: 220px 150px;
+        padding: 440px 150px;
     }
 
     .safe h2{
@@ -483,6 +483,7 @@ iframe {
         font-size: 12px;
         margin-top: -120px;
         margin-left: 35px;
+        margin-bottom: 300px;
     }
 
     .platinum {
@@ -500,4 +501,91 @@ iframe {
     .experiencia h5{
         margin-top: -80px;
     }
+
+    .pla{
+        color: #fff;
+        background-color: #fdad31;
+        padding: 0 5px;
+    }
+    
+    .pon{
+        color: #157cf0;
+        font-weight: 900;
+    }
+    
+    .pre{
+        position: relative;
+        left: 200px;
+        top: 30px;
+    }
+    
+    .reco{
+        position: relative;
+        text-align: start;
+        bottom: 198px;
+        left: 215px;
+    }
+    
+    .pro{
+        position: relative;
+        text-align: start;
+        bottom: 198px;
+        left: 215px;
+    }
+
+    .avi1{
+        position: absolute;
+        top: 1835px;
+        left: 150px;
+    }
+
+    .avi2{
+        position: absolute;
+        top: 1800px;
+        left: 600px;
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .avi3{
+        position: absolute;
+        top: 1970px;
+        left: 1050px;
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .vantagens-rodape{
+        background-image: url(http://i68.tinypic.com/ra0rkp.png);
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .vantagens-rodape img:first-child{
+        position: relative;
+        top: -137px;
+    }
+
+    .hand-line{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .box-line{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .app{
+        color: #fff;
+        font-weight: 900;
+        font-size: 50px;
+    }
+
+    .app-planeje{
+        color: #fff;
+        font-weight: 600;
+        margin-top: 60px;
+    }
+
 }
