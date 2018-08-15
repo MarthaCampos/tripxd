@@ -563,17 +563,19 @@ iframe {
 
     .vantagens-rodape img:first-child{
         position: relative;
-        top: -137px;
     }
 
     .hand-line{
         display: flex;
         justify-content: space-evenly;
+        align-items: flex-start;
     }
 
     .box-line{
         display: flex;
-        justify-content: flex-end;
+        position: absolute;
+        top: 2750px;
+        left: 170px;
     }
 
     .app{
@@ -586,6 +588,22 @@ iframe {
         color: #fff;
         font-weight: 600;
         margin-top: 60px;
+    }
+
+    .mao{
+        top: -137px;
+    }
+
+    .box01{
+        top: -40px;
+    }
+
+    .beneficios{
+        background-image: url(http://i64.tinypic.com/5bs3yv.png);
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 100%;
+        margin-top: -158px;
     }
 
 }
