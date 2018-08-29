@@ -322,13 +322,51 @@ iframe{
 .plano-gold{
     color: #fff;
     background-color: #fdad31;
-    width: 42px;
+    text-align: end;
 }
 .plano-platinum{
     color: #fff;
     background-color: #fdad31;
-    width: 72px;
+    text-align: end;
 }
+.dreamtrips {
+    width: 290px;
+    font-size: .7rem;
+    text-align: end;
+}
+.dreamtrips span{
+    color: #157cf0;
+    font-weight: 600;
+}
+.section-app{
+    background-image: url(http://i66.tinypic.com/jzk3zd.png);
+    background-size:auto 60px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 12px;
+}
+.sub-sec-01{
+    display: flex;
+    align-items: center;
+}
+.sub-sec-01 h3{
+    font-weight: 900;
+    padding-right: 10px;
+}
+.section-app .sub-sec-01 img{
+    max-width: 100%;
+    width: 44px;
+    padding-right: 10px;
+}
+.section-app .sub-sec-01 p{
+    font-size: 10px;
+}
+.section-app .sub-sec-02 img{
+    max-width: 100%;
+}
+
 @media(min-width: 992px){
     header{
         display: flex;
@@ -409,5 +447,62 @@ iframe{
     }
     .redes-sociais{
         margin-top: -5px;
+    }
+    .dreamtrips{
+        width: 360px;
+        font-size: .9rem;
+    }
+    .voo-02 h5{
+        width: 146px;
+        margin-left: 100px;
+    }
+    .section-app{
+        background-size:contain;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        margin-top: 50px;
+        color: #fff;
+        font-size: .9rem;
+    }
+    .sub-sec-01{
+        display: flex;
+        align-items: center;
+        margin-top: -33px;
+    }
+    .sub-sec-01 img{
+        margin-top: -124px;
+    }
+    .sub-sec-01 h3{
+        font-weight: 900;
+        padding-right: 10px;
+        font-size: 80px;
+    }
+    .section-app .sub-sec-01 img{
+        max-width: 100%;
+        width: 220px;
+        padding-right: 10px;
+    }
+    .section-app .sub-sec-01 p{
+        font-size: 1rem;
+        width: 320px;
+    }
+    .section-app .sub-sec-02 img{
+        position: relative;
+    }
+    .section-app .sub-sec-02 img:first-child{
+        left: 740px;
+        top: -265px;
+    }
+    .section-app .sub-sec-02 img:nth-child(4){
+        left: 316px;
+        top: -400px;
+    }
+    .section-app .sub-sec-02 img:nth-child(3){
+        left: 450px;
+        top: -400px;
+    }
+    .section-app .sub-sec-02 img:nth-child(2){
+        left: -267px;
+        top: -136px;
     }
 }
